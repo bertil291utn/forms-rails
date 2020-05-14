@@ -14,6 +14,16 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
+  def update
+    @user = User.find(params[:id])
+    @user.update(users_params)
+    redirect_to new_users_path
+  end
+
   private
 
   def users_params
