@@ -2,6 +2,8 @@
 
 > It's an exercise to work with Bare Metal Forms and Helpers,for Ruby on Rails.
 
+This is part of the Forms Project in [The Odin Project’s Ruby on Rails Curriculum](http://www.theodinproject.com).
+
 ## Built With
 
 - Ruby 2.6.5p114
