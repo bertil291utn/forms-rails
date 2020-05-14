@@ -1,24 +1,57 @@
-# README
+# Project:Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> It's an exercise to work with Bare Metal Forms and Helpers,for Ruby on Rails.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby 2.6.5p114
+- Rails 5.2.4.2
+- SCSS
+- HTML5
 
-* System dependencies
+## Getting start
 
-* Configuration
+### Install
 
-* Database creation
+In order to start with this project:
 
-* Database initialization
+1. You need to have ruby environment installed. [Click here for instructions](https://www.ruby-lang.org/en/documentation/installation/)
+2. Also you going to install [Rails environment](https://www.theodinproject.com/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails) 
+3. Clone [this repository :blue_book:](https://github.com/bertil291utn/forms-rails.git)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Run
 
-* Deployment instructions
+1. Enter to project directory `cd forms-rails` 
+2. Install all gems `bundle install`
+3. Migrate the database `rails db:migrate`
+4. Run rails server `rails s`
+5. Go to your browser and type `localhost:300` to load the web site
+   <!-- - At first view you are not going to have any article -->
+<!-- 6. Create a new article
 
-* ...
+![image](https://user-images.githubusercontent.com/24902525/81832522-392ed600-9504-11ea-81c4-b2b2aa26d2be.png) -->
+
+
+## Authors
+
+👤 **Bertil Tandayamo**
+
+- Github: [@bertil291utn](https://github.com/bertil291utn)
+- Twitter: [@btandayamo](https://twitter.com/batandayamo)
+- Linkedin: [Bertil Tandayamo](http://bit.ly/bertil_linkedin)
+
+👤 **Manuel Muhun**
+
+- Github: [@meme-es](https://github.com/meme-es)
+- Twitter: [@meme_es](https://twitter.com/meme_es)
+- Linkedin: [linkedin](https://www.linkedin.com/in/manuel-elias/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
