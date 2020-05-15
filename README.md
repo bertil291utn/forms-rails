@@ -6,7 +6,7 @@ This is part of the Forms Project in [The Odin Project’s Ruby on Rails Curricu
 
 We create just two actions for User object **New** and **Edit**
 
-## Built With
+## Built With 
 
 - Ruby 2.6.5p114
 - Rails 5.2.4.2
