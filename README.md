@@ -4,6 +4,8 @@
 
 This is part of the Forms Project in [The Odin Project’s Ruby on Rails Curriculum](http://www.theodinproject.com).
 
+We create just two actions for User object **New** and **Edit**
+
 ## Built With
 
 - Ruby 2.6.5p114
@@ -29,10 +31,19 @@ In order to start with this project:
 3. Migrate the database `rails db:migrate`
 4. Run rails server `rails s`
 5. Go to your browser and type `localhost:300` to load the web site
-   <!-- - At first view you are not going to have any article -->
-<!-- 6. Create a new article
+ - _Reviewing **New**_.- Type into your browser `localhost:3000/users/new` you'll see  the inputs with default values, fill the form and then Submit.
 
-![image](https://user-images.githubusercontent.com/24902525/81832522-392ed600-9504-11ea-81c4-b2b2aa26d2be.png) -->
+ ![image](https://user-images.githubusercontent.com/24902525/82080741-bbf19580-96aa-11ea-8890-7b097c6c11f8.png)
+
+ - _Reviewing **Edit**_.- Type into your browser `localhost:3000/users/<user_id>/edit` you'll see  the inputs with default values, fill the form and then Submit.
+ 
+ **Errors**
+ User model has some validations to avoid fill empty values(email, username and password). Try to submit with no values an then you'll see these errors.
+
+ ![image](https://user-images.githubusercontent.com/24902525/82081165-7c777900-96ab-11ea-9cf8-fc542b48ad59.png)
+
+
+
 
 
 ## Authors
