@@ -73,6 +73,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    dynamic_form (1.1.4)
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.12.2)
@@ -202,6 +203,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  dynamic_form
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
