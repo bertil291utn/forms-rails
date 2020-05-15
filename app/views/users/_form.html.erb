@@ -1,0 +1,14 @@
+<%= form_for @user do |f| %>
+  <ul class="error-list">
+    <% @user.errors.full_messages.each do |error| %>
+      <li><%= error %></li>
+    <% end %>
+  </ul>
+  <%= f.label :email, 'Your e-mail here:' %><br>
+  <%= f.text_field :email, placeholder: 'example@example.com', value: 'user__@user.com' %> <br>
+  <%= f.label :username, 'Username here:' %><br>
+  <%= f.text_field :username, placeholder: 'username', value: 'User' %> <br>
+  <%= f.label :email, 'And password:' %><br>
+  <%= f.password_field :password, placeholder: 'password' %> <br>
+  <%= f.submit "Send" %>
+<% end %>
