@@ -2,7 +2,7 @@
 
 > It's an exercise to work with Bare Metal Forms and Helpers,for Ruby on Rails.
 
-This is part of the Forms Project in [The Odin Project’s Ruby on Rails Curriculum](http://www.theodinproject.com).
+This is part of the Forms Project in [The Odin Project’s Ruby on Rails Curriculum](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms).
 
 We create just two actions for User object **New** and **Edit**
 
